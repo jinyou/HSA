@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		752DDEE51EC4B42C005FCCCE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752DDEE41EC4B42C005FCCCE /* LoginViewController.swift */; };
+		752DDEE71EC4B48B005FCCCE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752DDEE61EC4B48B005FCCCE /* RegisterViewController.swift */; };
+		752DDEE91EC4B4F0005FCCCE /* ServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752DDEE81EC4B4F0005FCCCE /* ServiceListViewController.swift */; };
+		752DDEEB1EC4B522005FCCCE /* ServiceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752DDEEA1EC4B522005FCCCE /* ServiceDetailsViewController.swift */; };
 		7580902F1EC0537B00EA337A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7580902E1EC0537B00EA337A /* AppDelegate.swift */; };
 		758090311EC0537B00EA337A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758090301EC0537B00EA337A /* FirstViewController.swift */; };
 		758090331EC0537B00EA337A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758090321EC0537B00EA337A /* SecondViewController.swift */; };
@@ -15,6 +19,7 @@
 		7580903B1EC0537B00EA337A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758090391EC0537B00EA337A /* LaunchScreen.storyboard */; };
 		758090461EC0537C00EA337A /* homeserviceappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758090451EC0537C00EA337A /* homeserviceappTests.swift */; };
 		758090511EC0537C00EA337A /* homeserviceappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758090501EC0537C00EA337A /* homeserviceappUITests.swift */; };
+		7580905F1EC18E9600EA337A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7580905E1EC18E9600EA337A /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		752DDEE41EC4B42C005FCCCE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		752DDEE61EC4B48B005FCCCE /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		752DDEE81EC4B4F0005FCCCE /* ServiceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceListViewController.swift; sourceTree = "<group>"; };
+		752DDEEA1EC4B522005FCCCE /* ServiceDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDetailsViewController.swift; sourceTree = "<group>"; };
 		7580902B1EC0537B00EA337A /* homeserviceapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeserviceapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7580902E1EC0537B00EA337A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		758090301EC0537B00EA337A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		7580904C1EC0537C00EA337A /* homeserviceappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeserviceappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		758090501EC0537C00EA337A /* homeserviceappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeserviceappUITests.swift; sourceTree = "<group>"; };
 		758090521EC0537C00EA337A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7580905E1EC18E9600EA337A /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +112,12 @@
 				7580902E1EC0537B00EA337A /* AppDelegate.swift */,
 				758090301EC0537B00EA337A /* FirstViewController.swift */,
 				758090321EC0537B00EA337A /* SecondViewController.swift */,
+				7580905E1EC18E9600EA337A /* AccountViewController.swift */,
 				758090341EC0537B00EA337A /* Main.storyboard */,
+				752DDEEA1EC4B522005FCCCE /* ServiceDetailsViewController.swift */,
+				752DDEE81EC4B4F0005FCCCE /* ServiceListViewController.swift */,
+				752DDEE61EC4B48B005FCCCE /* RegisterViewController.swift */,
+				752DDEE41EC4B42C005FCCCE /* LoginViewController.swift */,
 				758090371EC0537B00EA337A /* Assets.xcassets */,
 				758090391EC0537B00EA337A /* LaunchScreen.storyboard */,
 				7580903C1EC0537B00EA337A /* Info.plist */,
@@ -267,7 +282,12 @@
 			files = (
 				758090331EC0537B00EA337A /* SecondViewController.swift in Sources */,
 				7580902F1EC0537B00EA337A /* AppDelegate.swift in Sources */,
+				7580905F1EC18E9600EA337A /* AccountViewController.swift in Sources */,
+				752DDEE71EC4B48B005FCCCE /* RegisterViewController.swift in Sources */,
+				752DDEE51EC4B42C005FCCCE /* LoginViewController.swift in Sources */,
+				752DDEE91EC4B4F0005FCCCE /* ServiceListViewController.swift in Sources */,
 				758090311EC0537B00EA337A /* FirstViewController.swift in Sources */,
+				752DDEEB1EC4B522005FCCCE /* ServiceDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +540,7 @@
 				758090571EC0537C00EA337A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		758090581EC0537C00EA337A /* Build configuration list for PBXNativeTarget "homeserviceappTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +549,7 @@
 				7580905A1EC0537C00EA337A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7580905B1EC0537C00EA337A /* Build configuration list for PBXNativeTarget "homeserviceappUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +558,7 @@
 				7580905D1EC0537C00EA337A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
